@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PodHackatonsNoBody_Example' do
+  pod 'PodHackatonsNoBody', :path => '../'
+
+  target 'PodHackatonsNoBody_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
