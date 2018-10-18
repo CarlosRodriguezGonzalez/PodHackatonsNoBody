@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodHackatonsNoBody'
-  s.version          = '0.0.1'
+  s.version          = '0.2.0'
   s.summary          = 'Functions for help in Hackatons.'
   
   s.platform = :ios
@@ -29,10 +29,8 @@ Pod create for help us in hackatons with some functions.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'carlosRodriguezGonzalez' => 'carlosrg1997@hotmail.com' }
-  s.source           = { :git => 'https://github.com/carlosRodriguezGonzalez/PodHackatonsNoBody.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CarlosRodriguezGonzalez/PodHackatonsNoBody.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '11.0'
 
   s.source_files = 'PodHackatonsNoBody/Classes/**/*'
   
